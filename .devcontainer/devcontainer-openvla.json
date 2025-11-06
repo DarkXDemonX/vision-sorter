@@ -1,0 +1,32 @@
+{
+    "name": "OpenVLA Development Container",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "openvla",
+    "workspaceFolder": "/workspace",
+    "runServices": ["franka_ros2", "openvla"],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "ms-python.black-formatter",
+                "ms-iot.vscode-ros"
+            ],
+            "settings": {
+                "python.defaultInterpreterPath": "/opt/conda/bin/python",
+                "python.analysis.extraPaths": [
+                    "/opt/ros/humble/lib/python3.10/site-packages"
+                ],
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "terminal.integrated.profiles.linux": {
+                    "bash": { "path": "/bin/bash" }
+                },
+                "[python]": {
+                    "editor.formatOnSave": true,
+                    "editor.defaultFormatter": "ms-python.black-formatter"
+                }
+            }
+        }
+    }
+}

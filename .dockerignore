@@ -1,0 +1,62 @@
+# Git
+.git
+.gitignore
+.gitmodules
+.github
+
+# Documentation
+README.md
+learnings.md
+playbook.md
+*.md
+docs/
+*.pdf
+
+# Build artifacts
+build/
+install/
+log/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Testing
+test_results/
+Testing/
+
+# Logs
+*.log
+
+# Model files (if large)
+*.pth
+*.onnx
+*.pb
+
+# Cache
+.cache/
+
+# Experimental files
+Dockerfile.vlaold
+Dockerfile.vla_unified
+Dockerfile.smolvla
+docker-compose.unified.yml

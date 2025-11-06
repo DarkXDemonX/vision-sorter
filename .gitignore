@@ -1,0 +1,118 @@
+# Environment files
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ROS 2 Build artifacts
+build/
+install/
+log/
+cmake-build-*/
+
+# Colcon/Ament
+COLCON_IGNORE
+AMENT_IGNORE
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# IDE - VSCode (user settings only)
+.vscode/settings.json
+.vscode/launch.json
+*.code-workspace
+
+# Editor temporary files
+*~
+*.swp
+*.swo
+*.tmp
+.*.sw?
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+
+# Testing
+Testing/
+test_results/
+*.test
+*.gcov
+*.gcda
+*.gcno
+
+# Documentation build
+doc/_build/
+docs/_build/
+*.pdf
+*.dvi
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
+
+# Experimental/WIP Dockerfiles
+Dockerfile.vlaold
+Dockerfile.vla_unified
+Dockerfile.smolvla
+docker-compose.unified.yml
+
+# Model caches (can be large)
+*.pth
+*.onnx
+*.pb
+.cache/
+models/*.pth
+
+# Dependency packages
+franka_description/
+libfranka/
